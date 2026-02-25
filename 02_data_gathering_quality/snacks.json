@@ -1,0 +1,18 @@
+[
+    {
+        "snack_name": "Cheesy Unicorn Puffs",
+        "snack_type": "Chips",
+        "spiciness": "Medium",
+        "price_usd": 4.75,
+        "is_vegan": 0,
+        "taste_description": "Tastes like rainbow dreams with a hint of regret"
+    },
+    {
+        "snack_name": "Soggy Spaghetti Chips",
+        "snack_type": "Chips",
+        "spiciness": "Hot",
+        "price_usd": 3.50,
+        "is_vegan": 1,
+        "taste_description": "Chewy, weirdly sweet, slightly crunchy"
+    } 
+]
