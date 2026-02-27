@@ -1,0 +1,34 @@
+Question,Answer
+"In a relational data model, what type of relationship exists between a Trader and their individual Trades?",A 1:n (one-to-many) relationship.
+"Which Pandas function is used to join the Traders, Stocks, and Trades tables into a single DataFrame?",The `merge` function.
+What Pandas method is used to calculate aggregate statistics (like total or average) for specific groups of data?,The `groupby` method.
+What is the primary goal of Data Preparation (Data Prep) for Data Analysis?,"Ensuring human interpretability through clean labels, correct data, and clear charts."
+What is the primary goal of Data Preparation for Data Science?,"Ensuring machine readiness through scaling, encoding, and feature engineering."
+Which Pandas function allows for a quick visual scan of the first few rows of a DataFrame?,The `head()` function.
+What is the purpose of using `df.info()` during a data audit?,To identify incorrect data formats and check data types.
+Which Pandas function is used to discover impossible minimum or maximum values through summary statistics?,The `describe()` function.
+How do you calculate the total number of missing (null) values per column in a DataFrame?,By using `df.isna().sum()`.
+What does the command `df.duplicated().sum()` reveal about a dataset?,The total number of redundant (duplicate) rows.
+"Which function is best suited for detecting inconsistent categorical labels, such as variations in capitalization?",The `.value_counts()` function.
+What is 'Imputation' in the context of handling missing data?,"The process of filling missing values with a calculated substitute, such as the mean or median."
+What is the formula for calculating a Z-score to detect outliers?,$Z = \frac{\text{value} - \text{mean}}{\text{standard deviation}}$
+"According to standard outlier detection rules, at what absolute Z-score value is a data point typically marked as an outlier?",$|Z| > 3$
+What are the two primary methods for handling detected outliers in a dataset?,Replacing them with a value (like the median) or dropping the outlier rows.
+Which Python library is standard for interacting with REST APIs?,The `requests` library.
+What does an HTTP status code of 200 indicate?,Success.
+What does an HTTP status code of 404 indicate?,The requested resource was not found.
+What does an HTTP status code of 401 indicate?,"Unauthorized access, usually due to a missing or invalid API key."
+What is the primary role of the BeautifulSoup library in web scraping?,To parse HTML code and extract specific pieces of information.
+What is the purpose of using a `try-except` block in a web scraper?,To handle connection errors gracefully so the program doesn't crash during a multi-page scrape.
+What is the purpose of a function in Python programming?,To organize code into reusable blocks that can take parameters and return results.
+What is the 'Reverse Practice' method for learning code?,Starting with functional code and writing natural language comments to explain every section.
+"In Python, which method is used to iterate through both keys and values in a dictionary?",The `.items()` method.
+What does the `.agg()` method in Pandas allow you to do?,Apply multiple different aggregation functions simultaneously to a grouped dataset.
+What is the benefit of using the Median instead of the Mean when filling outliers?,The Median is more robust and less influenced by extreme values than the Mean.
+What is the first step in a standard project workflow for web scraping?,Requesting HTML data from the target URL.
+"In Python, what is the purpose of the `range()` function in a loop?",To generate a sequence of numbers for a fixed number of iterations.
+"In the context of data modeling, what does '1:n' stand for?",One-to-many relationship.
+What does the `.value_counts()` method return?,"A count of unique values in a column, showing the distribution of categories."
+How do you export a cleaned Pandas DataFrame for future use?,By using methods like `.to_csv()`.
+"In a Python script, what character starts a comment?",The hash character (`#`).
+What is the core benefit of writing code in reusable blocks (functions)?,It reduces redundancy and makes the code easier to maintain.

@@ -1,0 +1,34 @@
+Frage,Antwort
+"In einem relationalen Datenmodell, welcher Beziehungstyp besteht zwischen einem Trader und seinen einzelnen Trades?",Eine 1:n (one-to-many) Beziehung.
+"Welche Pandas-Funktion wird verwendet, um die Tabellen 'Traders', 'Stocks' und 'Trades' zu einem einzigen DataFrame zusammenzuführen?",Die `merge`-Funktion.
+"Welche Pandas-Methode wird verwendet, um aggregierte Statistiken (wie Summe oder Durchschnitt) für bestimmte Datengruppen zu berechnen?",Die `groupby`-Methode.
+Was ist das Hauptziel der Data Preparation (Datenvorbereitung) für die Datenanalyse?,"Die Gewährleistung der menschlichen Interpretierbarkeit durch saubere Labels, korrekte Daten und klare Charts."
+Was ist das Hauptziel der Data Preparation für Data Science?,"Die Gewährleistung der Machine Readiness durch Scaling, Encoding und Feature Engineering."
+Welche Pandas-Funktion ermöglicht einen schnellen visuellen Scan der ersten Zeilen eines DataFrames?,Die `head()`-Funktion.
+Was ist der Zweck von `df.info()` während eines Data Audits?,Falsche Datenformate zu identifizieren und Datentypen zu überprüfen.
+"Welche Pandas-Funktion wird verwendet, um unmögliche Minimum- oder Maximumwerte durch zusammenfassende Statistiken zu entdecken?",Die `describe()`-Funktion.
+Wie berechnet man die Gesamtzahl der fehlenden (Null-)Werte pro Spalte in einem DataFrame?,Durch die Verwendung von `df.isna().sum()`.
+Was verrät der Befehl `df.duplicated().sum()` über einen Datensatz?,Die Gesamtzahl der redundanten (doppelten) Zeilen.
+"Welche Funktion eignet sich am besten zum Erkennen von inkonsistenten kategorialen Labels, wie z.B. unterschiedliche Groß-/Kleinschreibung?",Die `.value_counts()`-Funktion.
+Was bedeutet 'Imputation' im Kontext der Behandlung fehlender Daten?,"Der Prozess des Auffüllens fehlender Werte mit einem berechneten Ersatz, wie dem Mittelwert oder Median."
+Wie lautet die Formel zur Berechnung des Z-Scores zur Erkennung von Ausreißern (Outliern)?,$Z = \frac{\text{Wert} - \text{Mittelwert}}{\text{Standardabweichung}}$
+"Gemäß den Standardregeln zur Ausreißer-Erkennung (Outlier Detection), ab welchem absoluten Z-Score-Wert wird ein Datenpunkt normalerweise als Ausreißer markiert?",$|Z| > 3$
+Was sind die zwei primären Methoden zum Umgang mit erkannten Ausreißern in einem Datensatz?,Ersetzen durch einen Wert (wie den Median) oder das Löschen der entsprechenden Zeilen.
+Welche Python-Bibliothek ist der Standard für die Interaktion mit REST APIs?,Die `requests`-Bibliothek.
+Was bedeutet ein HTTP-Statuscode von 200?,Erfolg (Success).
+Was bedeutet ein HTTP-Statuscode von 404?,Die angeforderte Ressource wurde nicht gefunden (Not Found).
+Was bedeutet ein HTTP-Statuscode von 401?,"Unbefugter Zugriff (Unauthorized), meist aufgrund eines fehlenden oder ungültigen API-Keys."
+Was ist die Hauptaufgabe der BeautifulSoup-Bibliothek beim Web Scraping?,HTML-Code zu parsen und spezifische Informationen zu extrahieren.
+Was ist der Zweck eines `try-except`-Blocks in einem Web Scraper?,"Verbindungsfehler kontrolliert zu behandeln, damit das Programm während eines Scrapes über mehrere Seiten nicht abstürzt."
+Was ist der Zweck einer Funktion in der Python-Programmierung?,"Code in wiederverwendbare Blöcke zu organisieren, die Parameter aufnehmen und Ergebnisse zurückgeben können."
+Was ist die 'Reverse Practice'-Methode zum Erlernen von Programmierung?,"Mit funktionsfähigem Code zu beginnen und Kommentare in natürlicher Sprache zu schreiben, um jeden Abschnitt zu erklären."
+"Welche Methode wird in Python verwendet, um sowohl über Schlüssel (keys) als auch über Werte (values) in einem Dictionary zu iterieren?",Die `.items()`-Methode.
+Was ermöglicht die `.agg()`-Methode in Pandas?,Das gleichzeitige Anwenden mehrerer verschiedener Aggregationsfunktionen auf einen gruppierten Datensatz.
+Was ist der Vorteil der Verwendung des Medians anstelle des Mittelwerts beim Auffüllen von Ausreißern?,Der Median ist robuster und wird weniger von extremen Werten beeinflusst als der Mittelwert.
+Was ist der erste Schritt in einem Standard-Projekt-Workflow für Web Scraping?,Das Anfordern von HTML-Daten von der Ziel-URL.
+Was ist in Python der Zweck der `range()`-Funktion in einer Schleife (loop)?,Eine Sequenz von Zahlen für eine feste Anzahl von Iterationen zu generieren.
+Was bedeutet '1:n' im Kontext der Datenmodellierung?,Eine Eins-zu-viele-Beziehung (One-to-many relationship).
+Was gibt die `.value_counts()`-Methode zurück?,"Eine Zählung der eindeutigen Werte in einer Spalte, die die Verteilung der Kategorien zeigt."
+Wie exportiert man einen bereinigten Pandas DataFrame für die zukünftige Verwendung?,Durch die Verwendung von Methoden wie `.to_csv()`.
+Mit welchem Zeichen beginnt ein Kommentar in einem Python-Skript?,Mit dem Raute-Zeichen (`#`).
+Was ist der Kernvorteil des Schreibens von Code in wiederverwendbaren Blöcken (Funktionen)?,Es reduziert Redundanz und macht den Code einfacher zu warten.
